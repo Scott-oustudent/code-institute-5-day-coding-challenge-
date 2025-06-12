@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Tea Recipe</title>
-    <!-- add the font awesome link here -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+
+    <!-- Font Awesome link should go here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Your CSS file -->
     <link href="index.css" rel="stylesheet" type="text/css" />
+
+    <!-- Your JavaScript files -->
     <script src="index.js"></script>
-    <link rel="icon" href="https://codeinstitute.s3-eu-west-1.amazonaws.com/5DCC/images/Content/favicon.ico" type="image/x-icon">
 </head>
 	<body>
 		<div id="container">
@@ -23,7 +27,7 @@
 			
 			<section onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
 				<!-- add a fontawesome icon here -->
-				<h2>ingredients <i id="ingredients" class="fa fa-coffee" aria-hidden="true"></i></h2>
+				<h2 id="ingredients">Ingredients <i class="fa-solid fa-mug-saucer"></i></h2>
 				<ul>
 					<li>Tea Bag</li>
 					<li>Water</li>
@@ -34,7 +38,7 @@
 			
 			<section onmouseover="preparationHover()" onmouseout="preparationNormal()">
 				<!-- add a fontawesome icon here -->
-				<h2>preparation <i id="preparation" class="fa fa-check-circle" aria-hidden="true"></i></h2>
+				<h2 id="preparation">preparation <i class="fa fa-check-circle" aria-hidden="true"></i></h2>
 				<ol>
 					<li>
 	                Run the tap a little so the water's nicely aerated, and only boil it once to keep the oxygen level up. Oxygen in water helps flavour!
@@ -64,5 +68,6 @@
 				<p>Copyright Me 2020</p>
 			</footer>
 		</div>
+         
 	</body>
 </html>
