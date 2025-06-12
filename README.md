@@ -50,8 +50,8 @@ Then in the CSS you would write the following:<br>
        class selector `"class"` can only be used once.</pre>
 So it will look as follows:
 ![Example](example.png)
-
-
+<br>
+Example of this repo can be found by going to: <a href="example">The Example Folder</a>
 
 
 
