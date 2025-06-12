@@ -49,7 +49,7 @@ Then in the CSS you would write the following:<br>
 <pre>       Class selectors can only be used once. in the above example, the 
        class selector `"class"` can only be used once.</pre>
 So it will look as follows:
-
+![Example](example.png)
 
 
 
