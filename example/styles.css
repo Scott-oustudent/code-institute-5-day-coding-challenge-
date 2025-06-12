@@ -1,0 +1,18 @@
+p {
+    font-size: 1em;
+    color: darkblue;
+    text-align: right;
+}
+#header {
+    font-size: 2em;
+    text-align: center;
+    color: #FF0000;
+    background: #000000
+    
+}
+.footer {
+    text-align: center;
+    color: #06e620;
+    font-size: 80%;
+    background-color: #d6a0d3;
+}
