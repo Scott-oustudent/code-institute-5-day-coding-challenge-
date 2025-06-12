@@ -49,15 +49,15 @@ Then in the CSS you would write the following:<br>
 <pre>       Class selectors can only be used once. in the above example, the 
        class selector `"class"` can only be used once.</pre>
 So it will look as follows:
-<<<<<<< HEAD
+
 ![Example](example.png)e e
 Example of this repo can be found by going to: <a href="example">The Example Folder</a>
 
-=======
+---
 ![Example](example.png)
 <br>
 Example of this repo can be found by going to: <a href="example">The Example Folder</a>
->>>>>>> f9a0405a0c4482c056655b57bc3d11cb6738b758
+
 
 
 
